@@ -1,0 +1,24 @@
+uuid: d5dd4e1c-4888-4dd0-977f-1a57350050fc
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.terminos-de-servicio
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+id: terminosdeservicio
+theme: bootstrap_barrio
+region: footer_first
+weight: -2
+provider: null
+plugin: 'system_menu_block:terminos-de-servicio'
+settings:
+  id: 'system_menu_block:terminos-de-servicio'
+  label: 'Términos de servicio'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

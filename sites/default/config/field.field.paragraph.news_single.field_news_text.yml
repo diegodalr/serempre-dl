@@ -1,0 +1,21 @@
+uuid: 5911812c-9823-4b2e-860d-ee574d20c54c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_news_text
+    - paragraphs.paragraphs_type.news_single
+  module:
+    - text
+id: paragraph.news_single.field_news_text
+field_name: field_news_text
+entity_type: paragraph
+bundle: news_single
+label: 'News text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

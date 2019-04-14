@@ -1,0 +1,24 @@
+uuid: 0e1e4e39-2c12-40fb-9303-232aadc00787
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+id: navegacionprincipal
+theme: bootstrap_barrio
+region: top_header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navegación principal'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

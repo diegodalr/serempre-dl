@@ -1,0 +1,32 @@
+uuid: 79d2655c-5ed1-4c8f-9561-a42be1d5312b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.page.field_content
+    - node.type.page
+  module:
+    - ds
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  field_content:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    region: content
+hidden:
+  langcode: true
+  links: true

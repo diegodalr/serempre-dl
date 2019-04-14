@@ -1,0 +1,8 @@
+uuid: 9fed8767-eabb-44d5-956e-6b26a557bb7b
+langcode: es
+status: true
+dependencies: {  }
+id: terminos-de-servicio
+label: 'Términos de servicio'
+description: ''
+locked: false

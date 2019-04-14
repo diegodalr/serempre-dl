@@ -1,0 +1,24 @@
+uuid: 29d10138-5083-4f9d-badb-d73ffd63c059
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.siguenos
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+id: siguenos
+theme: bootstrap_barrio
+region: footer_first
+weight: -1
+provider: null
+plugin: 'system_menu_block:siguenos'
+settings:
+  id: 'system_menu_block:siguenos'
+  label: Síguenos
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

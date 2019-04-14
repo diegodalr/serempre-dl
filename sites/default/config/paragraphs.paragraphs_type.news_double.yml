@@ -1,0 +1,9 @@
+uuid: 13eed8c9-a8c7-46a9-af25-b95247a40b88
+langcode: es
+status: true
+dependencies: {  }
+id: news_double
+label: 'News: double'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

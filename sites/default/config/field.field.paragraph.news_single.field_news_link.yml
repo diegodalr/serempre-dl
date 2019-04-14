@@ -1,0 +1,23 @@
+uuid: 1cdd3ddc-460f-4f49-a849-eea5df76d6b3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_news_link
+    - paragraphs.paragraphs_type.news_single
+  module:
+    - link
+id: paragraph.news_single.field_news_link
+field_name: field_news_link
+entity_type: paragraph
+bundle: news_single
+label: 'News link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

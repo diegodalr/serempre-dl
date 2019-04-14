@@ -1,0 +1,9 @@
+uuid: d17adec8-2518-47a4-b07e-fca562e0b724
+langcode: es
+status: true
+dependencies: {  }
+id: gallery_4x4
+label: 'Gallery: 4x4'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

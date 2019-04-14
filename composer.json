@@ -5,7 +5,14 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "composer/installers": "^1.0.24",
-        "wikimedia/composer-merge-plugin": "^1.4"
+        "wikimedia/composer-merge-plugin": "^1.4",
+        "drupal/admin_toolbar": "^1.26",
+        "drupal/bootstrap_barrio": "^4.22",
+        "drupal/bootstrap_library": "^1.11",
+        "drupal/panels": "^4.4",
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/paragraphs": "^1.8",
+        "drupal/ds": "^3.3"
     },
     "replace": {
         "drupal/core": "^8.6"

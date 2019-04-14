@@ -1,0 +1,9 @@
+uuid: 46b3d865-c3f6-4d3b-ac2b-8e47b44c2aca
+langcode: es
+status: true
+dependencies: {  }
+id: news_single
+label: 'News: single'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

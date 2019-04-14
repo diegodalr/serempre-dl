@@ -1,0 +1,19 @@
+uuid: 529dca6d-aaa6-417c-9801-1af8bbd305d5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_news_title
+    - paragraphs.paragraphs_type.news_double
+id: paragraph.news_double.field_news_title
+field_name: field_news_title
+entity_type: paragraph
+bundle: news_double
+label: 'News title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
