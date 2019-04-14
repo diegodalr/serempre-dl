@@ -1,0 +1,30 @@
+add people entity entities:
+  title: 'Create new People entity entities'
+
+administer people entity entities:
+  title: 'Administer People entity entities'
+  description: 'Allow to access the administration form to configure People entity entities.'
+  restrict access: true
+
+delete people entity entities:
+  title: 'Delete People entity entities'
+
+edit people entity entities:
+  title: 'Edit People entity entities'
+
+view published people entity entities:
+  title: 'View published People entity entities'
+
+view unpublished people entity entities:
+  title: 'View unpublished People entity entities'
+
+view all people entity revisions:
+  title: 'View all People entity revisions'
+
+revert all people entity revisions:
+  title: 'Revert all People entity revisions'
+  description: 'Role requires permission <em>view People entity revisions</em> and <em>edit rights</em> for people entity entities in question or <em>administer people entity entities</em>.'
+
+delete all people entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view People entity revisions</em> and <em>delete rights</em> for people entity entities in question or <em>administer people entity entities</em>.'

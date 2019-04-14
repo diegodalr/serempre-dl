@@ -12,7 +12,8 @@
         "drupal/panels": "^4.4",
         "drupal/page_manager": "^4.0@beta",
         "drupal/paragraphs": "^1.8",
-        "drupal/ds": "^3.3"
+        "drupal/ds": "^3.3",
+        "drupal/console": "~1.0"
     },
     "replace": {
         "drupal/core": "^8.6"

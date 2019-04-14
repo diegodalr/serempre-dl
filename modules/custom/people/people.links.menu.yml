@@ -1,0 +1,14 @@
+
+# People entity menu items definition
+entity.people_entity.collection:
+  title: 'People entity list'
+  route_name: entity.people_entity.collection
+  description: 'List People entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+people_entity.admin.structure.settings:
+  title: 'People entity settings'
+  description: 'Configure People entity entities'
+  route_name: people_entity.settings
+  parent: system.admin_structure

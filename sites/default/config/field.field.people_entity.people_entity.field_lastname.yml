@@ -1,0 +1,20 @@
+uuid: e976645b-ad88-4b5c-a583-9fa549551d8b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.people_entity.field_lastname
+  module:
+    - people
+id: people_entity.people_entity.field_lastname
+field_name: field_lastname
+entity_type: people_entity
+bundle: people_entity
+label: Apellidos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,54 @@
+uuid: e39928b1-9ed9-4712-8d98-018383608372
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.people_entity.people_entity.field_edad
+    - field.field.people_entity.people_entity.field_lastname
+  module:
+    - people
+id: people_entity.people_entity.default
+targetEntityType: people_entity
+bundle: people_entity
+mode: default
+content:
+  field_edad:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_lastname:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }
